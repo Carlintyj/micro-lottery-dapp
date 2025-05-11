@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Decentralized Lottery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Lottery DApp</h1>
+    <p><strong>Manager:</strong> <span id="manager">Loading...</span></p>
+    <p><strong>Ticket Price:</strong> <span id="ticketPrice">0.01 ETH</span></p>
+    <p>
+      <strong>Participants:</strong> <span id="playerCount">Loading...</span>
+    </p>
+    <p>
+      <strong>Next Draw Time:</strong> <span id="nextDraw">Loading...</span>
+    </p>
+
+    <button onclick="enterLottery()">Enter Lottery</button>
+    <p id="status"></p>
+
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
